@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Montserrat:wght@300&family=Righteous&display=swap');
+
+*{
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: "Montserrat", sans-serif;
+}
+body{
+   background-color: rgba(0, 0, 0);
+}
+.navbar-brand{
+   font-family: "Righteous", cursive;
+   font-weight: 400;
+   color: rgb(253, 39, 82);
+}
+.title-hero{
+   font-family: "Righteous", cursive;
+   color: crimson;
+}
+.bg-dark{
+   transition: all .5s;
+}
+.jumbotron{
+   margin-top: -60px;
+   background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgb(0, 0, 0)), url(../img/desktop.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
